@@ -15,6 +15,13 @@
 		B9FE485C1F4ED56200A1E7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FE485A1F4ED56200A1E7AB /* LaunchScreen.storyboard */; };
 		B9FE48671F4ED56200A1E7AB /* HggLocalNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FE48661F4ED56200A1E7AB /* HggLocalNotificationTests.m */; };
 		B9FE48721F4ED56200A1E7AB /* HggLocalNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FE48711F4ED56200A1E7AB /* HggLocalNotificationUITests.m */; };
+		B9FE48811F4EEC6800A1E7AB /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FE48801F4EEC6800A1E7AB /* TwoViewController.m */; };
+		B9FE48821F4EEEC900A1E7AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FE48501F4ED56200A1E7AB /* AppDelegate.m */; };
+		B9FE488A1F4FB38900A1E7AB /* 返回按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = B9FE48891F4FB38900A1E7AB /* 返回按钮.png */; };
+		B9FE48941F4FE1AC00A1E7AB /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = B9FE48931F4FE1AC00A1E7AB /* sound.caf */; };
+		B9FE48961F4FE22C00A1E7AB /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9FE48951F4FE22C00A1E7AB /* sound.mp3 */; };
+		B9FE48991F4FE3AD00A1E7AB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FE48981F4FE3AD00A1E7AB /* UserNotifications.framework */; };
+		B9FE48A31F4FEA4B00A1E7AB /* UIApplication+GYApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FE48A21F4FEA4B00A1E7AB /* UIApplication+GYApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		B9FE486D1F4ED56200A1E7AB /* HggLocalNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HggLocalNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FE48711F4ED56200A1E7AB /* HggLocalNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HggLocalNotificationUITests.m; sourceTree = "<group>"; };
 		B9FE48731F4ED56200A1E7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FE487F1F4EEC6800A1E7AB /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		B9FE48801F4EEC6800A1E7AB /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		B9FE48891F4FB38900A1E7AB /* 返回按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "返回按钮.png"; path = "../返回按钮.png"; sourceTree = "<group>"; };
+		B9FE48931F4FE1AC00A1E7AB /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
+		B9FE48951F4FE22C00A1E7AB /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		B9FE48981F4FE3AD00A1E7AB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		B9FE489A1F4FE6BF00A1E7AB /* HggLocalNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HggLocalNotification.entitlements; sourceTree = "<group>"; };
+		B9FE48A11F4FEA4700A1E7AB /* UIApplication+GYApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+GYApplication.h"; sourceTree = "<group>"; };
+		B9FE48A21F4FEA4B00A1E7AB /* UIApplication+GYApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+GYApplication.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FE48991F4FE3AD00A1E7AB /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +98,14 @@
 		B9FE48401F4ED56200A1E7AB = {
 			isa = PBXGroup;
 			children = (
+				B9FE48951F4FE22C00A1E7AB /* sound.mp3 */,
+				B9FE48931F4FE1AC00A1E7AB /* sound.caf */,
 				B9FE484B1F4ED56200A1E7AB /* HggLocalNotification */,
+				B9FE48831F4FB14200A1E7AB /* 选择控制器 */,
 				B9FE48651F4ED56200A1E7AB /* HggLocalNotificationTests */,
 				B9FE48701F4ED56200A1E7AB /* HggLocalNotificationUITests */,
 				B9FE484A1F4ED56200A1E7AB /* Products */,
+				B9FE48971F4FE3AD00A1E7AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +122,8 @@
 		B9FE484B1F4ED56200A1E7AB /* HggLocalNotification */ = {
 			isa = PBXGroup;
 			children = (
+				B9FE489A1F4FE6BF00A1E7AB /* HggLocalNotification.entitlements */,
+				B9FE48891F4FB38900A1E7AB /* 返回按钮.png */,
 				B9FE484F1F4ED56200A1E7AB /* AppDelegate.h */,
 				B9FE48501F4ED56200A1E7AB /* AppDelegate.m */,
 				B9FE48521F4ED56200A1E7AB /* ViewController.h */,
@@ -109,7 +132,11 @@
 				B9FE48581F4ED56200A1E7AB /* Assets.xcassets */,
 				B9FE485A1F4ED56200A1E7AB /* LaunchScreen.storyboard */,
 				B9FE485D1F4ED56200A1E7AB /* Info.plist */,
+				B9FE48A11F4FEA4700A1E7AB /* UIApplication+GYApplication.h */,
+				B9FE48A21F4FEA4B00A1E7AB /* UIApplication+GYApplication.m */,
 				B9FE484C1F4ED56200A1E7AB /* Supporting Files */,
+				B9FE487F1F4EEC6800A1E7AB /* TwoViewController.h */,
+				B9FE48801F4EEC6800A1E7AB /* TwoViewController.m */,
 			);
 			path = HggLocalNotification;
 			sourceTree = "<group>";
@@ -138,6 +165,22 @@
 				B9FE48731F4ED56200A1E7AB /* Info.plist */,
 			);
 			path = HggLocalNotificationUITests;
+			sourceTree = "<group>";
+		};
+		B9FE48831F4FB14200A1E7AB /* 选择控制器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "选择控制器";
+			path = HggLocalNotification;
+			sourceTree = "<group>";
+		};
+		B9FE48971F4FE3AD00A1E7AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9FE48981F4FE3AD00A1E7AB /* UserNotifications.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +250,28 @@
 				TargetAttributes = {
 					B9FE48481F4ED56200A1E7AB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7JA4K7EDZ7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					B9FE48611F4ED56200A1E7AB = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -246,8 +310,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FE488A1F4FB38900A1E7AB /* 返回按钮.png in Resources */,
 				B9FE485C1F4ED56200A1E7AB /* LaunchScreen.storyboard in Resources */,
+				B9FE48941F4FE1AC00A1E7AB /* sound.caf in Resources */,
 				B9FE48591F4ED56200A1E7AB /* Assets.xcassets in Resources */,
+				B9FE48961F4FE22C00A1E7AB /* sound.mp3 in Resources */,
 				B9FE48571F4ED56200A1E7AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +342,9 @@
 			files = (
 				B9FE48541F4ED56200A1E7AB /* ViewController.m in Sources */,
 				B9FE48511F4ED56200A1E7AB /* AppDelegate.m in Sources */,
+				B9FE48A31F4FEA4B00A1E7AB /* UIApplication+GYApplication.m in Sources */,
 				B9FE484E1F4ED56200A1E7AB /* main.m in Sources */,
+				B9FE48811F4EEC6800A1E7AB /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FE48821F4EEEC900A1E7AB /* AppDelegate.m in Sources */,
 				B9FE48721F4ED56200A1E7AB /* HggLocalNotificationUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7JA4K7EDZ7;
 				INFOPLIST_FILE = HggLocalNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hgg.HggLocalNotification;
@@ -435,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7JA4K7EDZ7;
 				INFOPLIST_FILE = HggLocalNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hgg.HggLocalNotification;
@@ -507,6 +579,7 @@
 				B9FE48781F4ED56200A1E7AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9FE48791F4ED56200A1E7AB /* Build configuration list for PBXNativeTarget "HggLocalNotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +588,7 @@
 				B9FE487B1F4ED56200A1E7AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9FE487C1F4ED56200A1E7AB /* Build configuration list for PBXNativeTarget "HggLocalNotificationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +597,7 @@
 				B9FE487E1F4ED56200A1E7AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
